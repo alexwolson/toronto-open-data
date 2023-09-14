@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "toronto-open-data"
+version = "0.1.3"
+description = "A package for easily accessing Toronto Open Data"
+authors = [{name = "Alex Olson", email = "alexwaolson@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pandas",
+    "ckanapi",
+    "tqdm",
+    "wget"
+]
