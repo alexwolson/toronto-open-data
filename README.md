@@ -15,7 +15,7 @@ pip install toronto-open-data
 ## Dependencies
 
 - `pandas`
-- `wget`
+- `requests`
 - `tqdm`
 - `ckanapi`
 
@@ -26,8 +26,7 @@ pip install toronto-open-data
 Initialize the `TorontoOpenData` class:
 
 ```python
-
-import TorontoOpenData
+from toronto_open_data import TorontoOpenData
 
 tod = TorontoOpenData(api_key='your_api_key_here')  # API key is optional
 ```

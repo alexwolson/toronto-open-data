@@ -17,5 +17,5 @@ dependencies = [
     "pandas",
     "ckanapi",
     "tqdm",
-    "wget"
+    "requests"
 ]
